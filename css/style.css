@@ -1,0 +1,55 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* Natural Box Layout */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-image: url("../images/back-g.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: black;
+  font-size: 16px;
+  min-height: 100%; }
+
+.welcome {
+  color: rgba(241, 241, 241, 0.8);
+  text-align: center;
+  width: 0 auto;
+  margin-top: 2rem; }
+
+.welcome__title {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 4em;
+  line-height: 1;
+  margin-bottom: .33rem;
+  margin-top: 5vh;
+  height: 70vh; }
+
+.welcome__title--color2 {
+  color: #d0dd17; }
+
+.welcome__title--color1 {
+  color: #00A7E1; }
+
+.welcome__slogan {
+  font-size: 1em;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 5px 0;
+  letter-spacing: 3px;
+  font-family: "Lato", sans-serif; }
+
+.welcome__subtitle {
+  font-family: "Lato", sans-serif;
+  font-size: .8em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: .33rem;
+  margin-top: 1rem;
+  line-height: 1; }
